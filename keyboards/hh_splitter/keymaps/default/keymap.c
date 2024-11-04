@@ -6,7 +6,9 @@
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [0] = LAYOUT(
+		//matrix size is [12][7]. (left: [5][7], right: [7][7]. Because of adjusting the key codes, to insert a blank line between the left and right.)
 		//left
+		//
         KC_ESCAPE,      KC_1,   	  KC_2,  		 KC_3,          KC_4,   		KC_5,
         KC_TAB,         KC_Q,   	  KC_W,  		 KC_E,          KC_R,   		KC_T,
         KC_LEFT_CTRL,   KC_A,   	  KC_S,  		 KC_D,          KC_F,   		KC_G,
@@ -38,6 +40,4 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_KP_PLUS,     KC_KP_MINUS,  KC_END,   	   	 KC_PAGE_DOWN,    KC_DOWN,        _______,   		_______,
         _______,        KC_STOP,  	_______
     )
-
-
 };
