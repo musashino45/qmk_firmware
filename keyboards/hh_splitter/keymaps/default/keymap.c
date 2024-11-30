@@ -38,6 +38,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______,        _______,   	KC_PRINT_SCREEN, KC_SCROLL_LOCK,  KC_PAUSE,       KC_UP,			_______,
         KC_KP_ASTERISK, KC_KP_SLASH,  KC_HOME,  	   	 KC_PAGE_UP,      KC_LEFT, 	      KC_RIGHT,         _______,
         KC_KP_PLUS,     KC_KP_MINUS,  KC_END,   	   	 KC_PAGE_DOWN,    KC_DOWN,        _______,   		_______,
-        _______,        KC_STOP,  	_______
+        _______,        _______,  	_______
     )
 };
